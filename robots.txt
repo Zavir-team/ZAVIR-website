@@ -1,0 +1,15 @@
+# robots.txt for ZAVIR-tech website
+# Allow all crawlers to access the site
+
+User-agent: *
+Allow: /
+
+# Disallow specific directories if needed
+# Disallow: /private/
+# Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://zavir-tech.com/sitemap.xml
+
+# Crawl-delay (optional, respect server resources)
+# Crawl-delay: 1

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore ZAVIR-tech portfolio — real projects delivering value to businesses worldwide." />
+    <meta
+      name="keywords"
+      content="software house Afghanistan, web development, mobile apps, AI solutions, cloud, UI/UX design"
+    />
+    <meta name="author" content="ZAVIR-tech" />
+    <meta name="robots" content="index,follow" />
+    <meta name="theme-color" content="#2f8de4" />
+    <meta
+      property="og:title"
+      content="ZAVIR-tech — Building Digital Solutions for Afghanistan and the World"
+    />
+    <meta
+      property="og:description"
+      content="Professional software development and digital solutions for businesses worldwide."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ZAVIR-tech" />
+    <meta property="og:image" content="https://zavir-tech.com/images/logo/zavir-logo.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ZAVIR-tech — Building Digital Solutions for Afghanistan and the World" />
+    <meta name="twitter:description" content="Professional software development and digital solutions for businesses worldwide." />
+    <meta name="twitter:image" content="https://zavir-tech.com/images/logo/zavir-logo.jpg" />
+    <link rel="canonical" href="https://zavir-tech.com/portfolio.html" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareCompany",
+      "name": "ZAVIR-tech",
+      "description": "Professional software development and digital solutions for businesses worldwide.",
+      "url": "https://zavir-tech.com",
+      "logo": "https://zavir-tech.com/images/logo/zavir-logo.jpg",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+93 784 519 843",
+        "contactType": "customer service",
+        "email": "zavirtechnology@gmail.com",
+        "areaServed": "Afghanistan"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Kabul",
+        "addressCountry": "Afghanistan"
+      },
+      "sameAs": [
+        "https://www.facebook.com/share/19PV6jZUD2/?mibextid=wwXIfr",
+        "https://whatsapp.com/channel/0029Vb89jT8JZg40094sPX3a"
+      ]
+    }
+    </script>
+    
+    <link rel="icon" href="images/logo/favicon.svg" />
+    <title>Portfolio | ZAVIR-tech</title>
+
+    <!-- Fonts: Inter (Vercel-like geometric sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+  </head>
+  <body data-page="portfolio">
+
+    <div class="cursor" id="cursor" aria-hidden="true"></div>
+    <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+    <div class="mouse-glow" id="mouseGlow" aria-hidden="true"></div>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <div id="site-header"></div>
+    <div id="site-mobile-menu"></div>
+
+    <main id="main" class="page-main">
+<!-- ======================= PORTFOLIO ======================= -->
+      <section
+        class="section portfolio"
+        id="portfolio"
+        aria-labelledby="portfolio-title"
+      >
+        <div class="container">
+          <div class="section__header reveal" data-reveal="up">
+            <span class="section__eyebrow">Portfolio</span>
+            <h2 class="section__title" id="portfolio-title">
+              Selected Work and Client Outcomes
+            </h2>
+            <p class="section__subtitle">
+              A selection of completed projects demonstrating our capabilities across software, data, and digital platforms.
+            </p>
+          </div>
+
+          <!-- Filter buttons -->
+          <div
+            class="portfolio__filters reveal"
+            data-reveal="up"
+            role="group"
+            aria-label="Filter portfolio projects"
+          >
+            <button class="filter-btn is-active" data-filter="all" data-ripple>
+              All
+            </button>
+            <button class="filter-btn" data-filter="web" data-ripple>
+              Web
+            </button>
+            <button class="filter-btn" data-filter="desktop" data-ripple>
+              Desktop
+            </button>
+            <button class="filter-btn" data-filter="ai" data-ripple>AI</button>
+            <button class="filter-btn" data-filter="cloud" data-ripple>
+              Cloud
+            </button>
+          </div>
+
+          <div class="portfolio__grid" id="portfolioGrid"></div>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+    <div id="site-back-to-top"></div>
+
+    <script src="js/layout.js"></script>
+    <script src="js/content.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/animations.js" defer></script>
+  </body>
+</html>
